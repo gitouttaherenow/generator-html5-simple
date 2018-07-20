@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'F:\\Softwares\\NodeJS\\node.exe',
+1 verbose cli   'F:\\Softwares\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: 'E:\\Web Practice\\generator-html5-simple',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory C:\Users\Thoshikesh\AppData\Roaming\npm-cache\generator-html5-simple\0.1.0\package.tgz not in flight; packing
+9 verbose correctMkdir C:\Users\Thoshikesh\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+10 info lifecycle generator-html5-simple@0.1.0~prepublish: generator-html5-simple@0.1.0
+11 silly lifecycle generator-html5-simple@0.1.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ 'C:\\Users\\Thoshikesh\\AppData\\Roaming\\npm-cache\\generator-html5-simple\\0.1.0\\package.tgz',
+12 verbose tar pack   'E:\\Web Practice\\generator-html5-simple' ]
+13 verbose tarball C:\Users\Thoshikesh\AppData\Roaming\npm-cache\generator-html5-simple\0.1.0\package.tgz
+14 verbose folder E:\Web Practice\generator-html5-simple
+15 verbose addLocalTarball adding from inside cache C:\Users\Thoshikesh\AppData\Roaming\npm-cache\generator-html5-simple\0.1.0\package.tgz
+16 verbose correctMkdir C:\Users\Thoshikesh\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+17 silly cache afterAdd generator-html5-simple@0.1.0
+18 verbose afterAdd C:\Users\Thoshikesh\AppData\Roaming\npm-cache\generator-html5-simple\0.1.0\package\package.json not in flight; writing
+19 verbose correctMkdir C:\Users\Thoshikesh\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+20 verbose afterAdd C:\Users\Thoshikesh\AppData\Roaming\npm-cache\generator-html5-simple\0.1.0\package\package.json written
+21 silly publish { name: 'generator-html5-simple',
+21 silly publish   version: '0.1.0',
+21 silly publish   description: 'A basic scaffolding for a HTML5 static site',
+21 silly publish   author: { name: 'Thoshi', email: 'contact@thoshikesh.com' },
+21 silly publish   license: 'MIT',
+21 silly publish   main: 'index.js',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/thoshikesh/generator-html5-simple.git' },
+21 silly publish   files: [ 'app' ],
+21 silly publish   keywords:
+21 silly publish    [ 'yeoman-generator',
+21 silly publish      'simple-html5',
+21 silly publish      'css3',
+21 silly publish      'basic',
+21 silly publish      'scaffolding' ],
+21 silly publish   homepage: 'http://enter this project\'s github repo link here',
+21 silly publish   dependencies: { 'yeoman-generator': '^1.1.1' },
+21 silly publish   readme: '# generator-html5-simple\n\nThe most simple & basic scaffolding generator for static HTML5 sites.',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: 'fd349638adae91e9f390b6b683f110ad49995880',
+21 silly publish   bugs: { url: 'https://github.com/thoshikesh/generator-html5-simple/issues' },
+21 silly publish   _id: 'generator-html5-simple@0.1.0',
+21 silly publish   scripts: {},
+21 silly publish   _shasum: '8d48021bb128a778da2330e576f842c4c6604e72',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name generator-html5-simple
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'generator-html5-simple',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'generator-html5-simple',
+26 silly mapToRegistry   name: 'generator-html5-simple',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/generator-html5-simple
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading C:\Users\Thoshikesh\AppData\Roaming\npm-cache\generator-html5-simple\0.1.0\package.tgz
+30 verbose request uri https://registry.npmjs.org/generator-html5-simple
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 8:57:08 PM
+33 verbose request using bearer token for auth
+34 verbose request id f6726aea0313e285
+35 http request PUT https://registry.npmjs.org/generator-html5-simple
+36 http 403 https://registry.npmjs.org/generator-html5-simple
+37 verbose headers { date: 'Fri, 20 Jul 2018 15:27:09 GMT',
+37 verbose headers   'content-type': 'application/json',
+37 verbose headers   'transfer-encoding': 'chunked',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'set-cookie': [ '__cfduid=dd38d0c95a95e8f6893f70340811cd0eb1532100428; expires=Sat, 20-Jul-19 15:27:08 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+37 verbose headers   'cf-ray': '43d6733c2ca22fb1-MAA',
+37 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+37 verbose headers   'npm-notice': 'Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".',
+37 verbose headers   server: 'cloudflare',
+37 verbose headers   'content-encoding': 'gzip' }
+38 warn notice Due to a recent security incident, all user tokens have been invalidated. Please see https://status.npmjs.org/incidents/dn7c1fgrr7ng for more details. To generate a new token, visit https://www.npmjs.com/settings/~/tokens or run "npm login".
+39 verbose request invalidating C:\Users\Thoshikesh\AppData\Roaming\npm-cache\registry.npmjs.org\generator-html5-simple on PUT
+40 error publish Failed PUT 403
+41 verbose stack Error: You cannot publish over the previously published versions: 0.1.0. : generator-html5-simple
+41 verbose stack     at makeError (F:\Softwares\NodeJS\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+41 verbose stack     at CachingRegistryClient.<anonymous> (F:\Softwares\NodeJS\node_modules\npm\node_modules\npm-registry-client\lib\request.js:290:14)
+41 verbose stack     at F:\Softwares\NodeJS\node_modules\npm\node_modules\npm-registry-client\lib\request.js:216:7
+41 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+41 verbose stack     at emitNone (events.js:91:20)
+41 verbose stack     at Gunzip.emit (events.js:185:7)
+41 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+41 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+41 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+42 verbose statusCode 403
+43 verbose pkgid generator-html5-simple
+44 verbose cwd E:\Web Practice\generator-html5-simple
+45 error Windows_NT 6.3.9600
+46 error argv "F:\\Softwares\\NodeJS\\node.exe" "F:\\Softwares\\NodeJS\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+47 error node v6.10.3
+48 error npm  v3.10.10
+49 error code E403
+50 error You cannot publish over the previously published versions: 0.1.0. : generator-html5-simple
+51 error If you need help, you may report this error at:
+51 error     <https://github.com/npm/npm/issues>
+52 verbose exit [ 1, true ]

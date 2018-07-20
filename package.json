@@ -1,6 +1,6 @@
 {
   "name": "generator-html5-simple",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A basic scaffolding for a HTML5 static site",
   "author": "Thoshi <contact@thoshikesh.com>",
   "license": "MIT",
