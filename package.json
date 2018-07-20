@@ -5,6 +5,10 @@
   "author": "Thoshi <contact@thoshikesh.com>",
   "license": "MIT",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thoshikesh/generator-html5-simple.git"
+  },
   "files": [
     "generators"
   ],
@@ -20,7 +24,6 @@
     "yeoman-generator": "^1.1.1"
   },
   "files": [
-    "app",
-
+    "app"
   ]
 }
