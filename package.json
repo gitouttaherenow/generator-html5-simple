@@ -1,0 +1,26 @@
+{
+  "name": "generator-html5-simple",
+  "version": "0.1.0",
+  "description": "A basic scaffolding for a HTML5 static site",
+  "author": "Thoshi <contact@thoshikesh.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "simple-html5",
+    "css3",
+    "basic",
+    "scaffolding"
+  ],
+  "homepage": "enter this project's github repo link here",
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  },
+  "files": [
+    "app",
+
+  ]
+}
